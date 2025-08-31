@@ -31,7 +31,7 @@ mvn clean package
 weapons:
   samurai_katana:
     weapon:
-      name: <colorize:Legendary Samurai Katana>
+      name: "Samurai Katana"
       lore:
         - "{boosts}"
       material: NETHERITE_SWORD
@@ -43,7 +43,7 @@ weapons:
 
   kings_sword:
     weapon:
-      name: <colorize:Legendary King's Sword>
+      name: "King's Sword"
       lore:
         - "{boosts}"
       material: NETHERITE_SWORD
@@ -55,7 +55,7 @@ weapons:
 
   kings_shield:
     weapon:
-      name: <colorize:Legendary King's Shield>
+      name: "King's Shield"
       lore:
         - "{boosts}"
       material: SHIELD
@@ -67,7 +67,7 @@ weapons:
 
   kings_bow:
     weapon:
-      name: <colorize:Legendary King's Bow>
+      name: "King's Bow"
       lore:
         - "{boosts}"
       material: BOW
