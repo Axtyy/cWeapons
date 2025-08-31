@@ -1,0 +1,15 @@
+name: CustomWeapons
+main: com.axteroid.customweapons.CustomWeapons
+version: 1.0.0
+api-version: '1.21'
+authors: [ CheetahAI ]
+description: Configurable custom weapons with abilities
+commands:
+  cweapons:
+    description: Manage and give custom weapons
+    usage: /<command> <give|list|reload> [player] [weaponId]
+    permission: customweapons.use
+permissions:
+  customweapons.use:
+    default: op
+

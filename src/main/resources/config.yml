@@ -1,0 +1,76 @@
+tick_interval: 100
+
+weapons:
+  samurai_katana:
+    name: samurai_katana
+    id: samurai_katana
+    weapon:
+      name: '&#9E83F1Samurai Katana'
+      lore:
+      - '&#AEAEAEA legendary weapon of the royal armory.'
+      - ''
+      - '&fPASSIVE: &#AEAEAEGain permanent &#27FFEESpeed III&#AEAEAE'
+      - '&#AEAEAEwhile holding. &#AEAEAE(Refreshes every 5 seconds)'
+      material: NETHERITE_SWORD
+      enchants: {}
+    boosts:
+      '1':
+        type: HOLD_SPEED
+        value: 3
+
+  kings_sword:
+    name: kings_sword
+    id: kings_sword
+    weapon:
+      name: '&#F16164King''s Sword'
+      lore:
+      - '&#AEAEAEA legendary weapon of the royal armory.'
+      - ''
+      - '&fPASSIVE: &#AEAEAEGain permanent &#F13B3BStrength I'
+      - '&#AEAEAEand &#27FFEESpeed I&#AEAEAE while holding.'
+      material: NETHERITE_SWORD
+      enchants: {}
+    boosts:
+      '1':
+        type: HOLD_STRENGTH
+        value: 1
+      '2':
+        type: HOLD_SPEED
+        value: 1
+
+  kings_shield:
+    name: kings_shield
+    id: kings_shield
+    weapon:
+      name: '&#DBCC00King''s Shield'
+      lore:
+      - '&#AEAEAEA legendary artifact of the royal armory.'
+      - ''
+      - '&fPASSIVE: &#AEAEAEGain permanent &#ACF192Resistance II&#AEAEAE while holding.'
+      - '&fPASSIVE: &#AEAEAEGain permanent &#3089EASlowness II&#AEAEAE while holding.'
+      - ''
+      material: SHIELD
+      enchants: {}
+    boosts:
+      '1':
+        type: HOLD_RESISTANCE
+        value: 2
+      '2':
+        type: HOLD_SLOWNESS
+        value: 2
+
+  kings_bow:
+    name: kings_bow
+    id: kings_bow
+    weapon:
+      name: '&#F18A55King''s Bow'
+      lore:
+      - '&#AEAEAEA legendary weapon of the royal armory.'
+      - ''
+      - '&fPASSIVE: &#AEAEAEShoots Spectral Arrows.'
+      - ''
+      material: BOW
+      enchants: {}
+    boosts:
+      '2':
+        type: BOW_SPECTRAL
