@@ -28,52 +28,82 @@ mvn clean package
 
 ## Config Overview (config.yml)
 ```yaml
+tick_interval: 100
+
 weapons:
   samurai_katana:
+    name: samurai_katana
+    id: samurai_katana
     weapon:
-      name: "Samurai Katana"
+      name: '&#9E83F1Samurai Katana'
       lore:
-        - "{boosts}"
+      - '&#AEAEAEA legendary weapon of the royal armory.'
+      - ''
+      - '&fPASSIVE: &#AEAEAEGain permanent &#27FFEESpeed III&#AEAEAE'
+      - '&#AEAEAEwhile holding. &#AEAEAE(Refreshes every 5 seconds)'
       material: NETHERITE_SWORD
+      enchants: {}
     boosts:
-      - type: HOLD_SPEED
+      '1':
+        type: HOLD_SPEED
         value: 3
-      - type: REFRESH_SECONDS
-        value: 5
 
   kings_sword:
+    name: kings_sword
+    id: kings_sword
     weapon:
-      name: "King's Sword"
+      name: '&#F16164King''s Sword'
       lore:
-        - "{boosts}"
+      - '&#AEAEAEA legendary weapon of the royal armory.'
+      - ''
+      - '&fPASSIVE: &#AEAEAEGain permanent &#F13B3BStrength I'
+      - '&#AEAEAEand &#27FFEESpeed I&#AEAEAE while holding.'
       material: NETHERITE_SWORD
+      enchants: {}
     boosts:
-      - type: HOLD_STRENGTH
+      '1':
+        type: HOLD_STRENGTH
         value: 1
-      - type: HOLD_SPEED
+      '2':
+        type: HOLD_SPEED
         value: 1
 
   kings_shield:
+    name: kings_shield
+    id: kings_shield
     weapon:
-      name: "King's Shield"
+      name: '&#DBCC00King''s Shield'
       lore:
-        - "{boosts}"
+      - '&#AEAEAEA legendary artifact of the royal armory.'
+      - ''
+      - '&fPASSIVE: &#AEAEAEGain permanent &#ACF192Resistance II&#AEAEAE while holding.'
+      - '&fPASSIVE: &#AEAEAEGain permanent &#3089EASlowness II&#AEAEAE while holding.'
+      - ''
       material: SHIELD
+      enchants: {}
     boosts:
-      - type: HOLD_RESISTANCE
+      '1':
+        type: HOLD_RESISTANCE
         value: 2
-      - type: HOLD_SLOWNESS
+      '2':
+        type: HOLD_SLOWNESS
         value: 2
 
   kings_bow:
+    name: kings_bow
+    id: kings_bow
     weapon:
-      name: "King's Bow"
+      name: '&#F18A55King''s Bow'
       lore:
-        - "{boosts}"
+      - '&#AEAEAEA legendary weapon of the royal armory.'
+      - ''
+      - '&fPASSIVE: &#AEAEAEShoots Spectral Arrows.'
+      - ''
       material: BOW
+      enchants: {}
     boosts:
-      - type: BOW_GLOW_ON_HIT
-        value: 10
+      '2':
+        type: BOW_SPECTRAL
 ```
 
 Notes:
